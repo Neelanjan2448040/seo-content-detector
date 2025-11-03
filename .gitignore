@@ -1,0 +1,23 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE and OS files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated data files 
+data/extracted_*.csv
+data/features.csv
+data/duplicates.csv
+data/quality_results.csv
+
+# Saved models 
+models/
