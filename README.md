@@ -56,4 +56,5 @@ This project is a machine learning pipeline that analyzes web content for SEO qu
 
 * **Parser:** The HTML parser is heuristic and may struggle with sites that heavily rely on JavaScript to render content.
 * **Scraper:** The `analyze_url` function uses a basic `requests.get()` scraper and will be blocked by many modern websites with anti-bot protections (e.g., Cloudflare).
+
 * **Labels:** The quality labels are synthetic (rule-based) as per the assignment. A real-world model would require a much larger, human-labeled dataset to be truly effective.
