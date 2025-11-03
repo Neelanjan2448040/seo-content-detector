@@ -7,4 +7,5 @@ nltk
 textstat
 sentence_transformers
 tqdm
+streamlit
 joblib
